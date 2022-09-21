@@ -265,14 +265,14 @@ jQuery(function ($) {
     
     
     TweenMax.from(".main-font span", 2, {
-        delay: 2,
+        delay: 0,
         opacity: 0,
         y: 60,
         ease: Expo.easeInOut
     })
 
     TweenMax.from(".content-para", 2, {
-        delay: 4,
+        delay: 0,
         opacity: 0,
         y: 20,
         ease: Expo.easeInOut
